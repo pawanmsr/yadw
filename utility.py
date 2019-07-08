@@ -6,7 +6,7 @@ def pos_tagging(sentence):
     doc = nlp(sentence)
     tags = ''
     for entity in doc:
-        tags += entity.text + ' [' + entity.pos_ + ']\t\t\t\t'
+        tags += entity.text + ' [' + entity.pos_ + ']\t\t'
     return tags
 
 def test():
