@@ -7,7 +7,7 @@ Nothing special, individual practice work
 Overview
 --------
 
-An API to host webpage with part of speech tagging application. It contains commands to handle timeout, limit memory usage, and restart server.
+An API to host webpage with part of speech tagging application. It contains commands to handle timeout, limit memory usage, and restart server. The wabpage is mostly static with *ajax* flavoured *javascript* for POST request.
 
 *Flask* and *SpaCy* for python backend  
 *uWSGI* for hosting and *Supervisor* for process control
