@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--author: pawanmsr-->
+<html>
+    <head>
+        <meta http-equiv="cache-control" content="no-cache" />
+        <meta http-equiv=”Pragma” content=”no-cache” />
+        <meta http-equiv=”Expires” content=”-1″ />
+        <title>YADW</title>
+        <link rel="stylesheet" type="text/css" href="../static/yadw.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="../static/submit.js"></script>
+    </head>
+    <body>
+        <div id="top-container" class="box">
+                <h1 class="page-title">
+                        Yet Another Dumb Webpage
+                        <p class="author">
+                            Hi, I am YADW. I host a Part of Speech tagging application which basically takes phrases/sentences as input and returns, for each element, its Part of Speech tagged by SpaCy. Check it out below.
+                        </p>
+                </h1>
+        </div>
+
+        <div id="middle-container" class="box">
+            <h2 class="section">Part of Speech Tagging</h2>
+            <form class="form">
+                <textarea type="text" id="sentence" maxlength="500"
+                class="pos-text" wrap="soft"
+                placeholder="Enter text for POS tagging."></textarea>
+                <input type="submit" value="TAG POS" id="input-text"/>
+            </form>
+            <p>
+                <textarea type="text" id="output" wrap="soft" class="pos-text"
+                placeholder="Tagged sentence will appear here." readonly></textarea>
+            </p>
+        </div>
+        <div class="box image">
+            <h2 class="section">Another Irrelevant Section</h2>
+            <img src="../static/images/trap.png" height="400px" alt="traps everywhere"/>
+            <figcaption>Random funny image as space filler : <a href="https://knowyourmeme.com/photos/1330387-trap">link</a></figcaption>
+        </div>
+    </body>
+</html>
